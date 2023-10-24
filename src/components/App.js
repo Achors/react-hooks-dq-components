@@ -11,15 +11,15 @@ import Search from "./Search";
 
 function App() {
   return <div className="app-container">
-    <TopMenu />
+    <Logo />
     <SideMenu />
+    <GenrePicker /> 
+    <TopMenu />        
     <MenuLinks />
     <MainContent />
-    <Search />
-    <AlbumCard />
-    <AlbumList />
-    <GenrePicker />
-    <Logo />
+    <AlbumList /> 
+    <Search />   
+    <AlbumCard /> 
   </div>;
 }
 
