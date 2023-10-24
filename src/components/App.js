@@ -5,7 +5,6 @@ import MainContent from "./MainContent";
 import SideMenu from "./SideMenu";
 import Logo from "./Logo";
 import GenrePicker from "./GenrePicker";
-import AlbumCard from "./AlbumCard";
 import AlbumList from "./AlbumList";
 import Search from "./Search";
 
@@ -14,12 +13,12 @@ function App() {
     <Logo />
     <SideMenu />
     <GenrePicker /> 
-    <TopMenu />        
+    <TopMenu />       
     <MenuLinks />
     <MainContent />
-    <AlbumList /> 
-    <Search />   
-    <AlbumCard /> 
+    <AlbumList />
+    <Search />
+        
   </div>;
 }
 
